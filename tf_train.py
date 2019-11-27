@@ -6,7 +6,8 @@ import random
 # Variable used to stablish the training desired accuracy.
 DESIRED_ACCURACY = 0.998
 
-# Callback function usded to check the current epoch accuracy and end the training process if the desired accuracy is achieved.
+# Callback function usded to check the current epoch accuracy and end the training process 
+# if the desired accuracy is achieved.
 class myCallback(tf.keras.callbacks.Callback):
 	def on_epoch_end(self, epoch, logs={}):
 		if(logs.get('accuracy') > DESIRED_ACCURACY):
