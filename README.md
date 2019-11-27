@@ -1,5 +1,5 @@
-# Convolutional Neural Networks Seminair
-This repository includes all relevant files used for the Convolutional Neural Networks Seminair
+# Convolutional Neural Networks Seminar
+This repository includes all relevant files used for the Convolutional Neural Networks Seminar
 
 ### Instructions:
 1. In an Ubuntu machine, download/clone this repository.
